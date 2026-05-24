@@ -1,0 +1,48 @@
+body{
+  margin:0;
+  font-family:Poppins;
+  background:linear-gradient(135deg,#ff9a9e,#fad0c4,#fbc2eb);
+  color:white;
+  text-align:center;
+}
+
+.hero{
+  padding:60px;
+}
+
+.section{
+  padding:40px;
+}
+
+.img-box img{
+  width:180px;
+  margin:10px;
+  border-radius:15px;
+}
+
+.cake{
+  font-size:90px;
+}
+
+.btn{
+  display:inline-block;
+  padding:10px 20px;
+  background:white;
+  color:black;
+  border-radius:10px;
+  text-decoration:none;
+  margin-top:20px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:10px;
+  padding:20px;
+}
+
+.box{
+  background:rgba(255,255,255,0.2);
+  padding:15px;
+  border-radius:12px;
+}
